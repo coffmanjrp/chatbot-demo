@@ -37,7 +37,7 @@ export class FormDialog extends Component {
     const description = this.state.description;
 
     const payload = {
-      text: `お問い合わせがありました\nお名前：${name}\nEmail：${email}\nお問い合わせ内容：${description}`,
+      text: `お問い合わせがありました\n\nお名前：${name}\nEmail：${email}\nお問い合わせ内容：\n${description}`,
     };
 
     const url =
